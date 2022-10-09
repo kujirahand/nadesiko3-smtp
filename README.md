@@ -4,7 +4,7 @@
 
 ## プラグインをインストール
 
-Node.jsをインストールし、ターミナルで以下を実行します。
+[Node.js](https://nodejs.org/ja)と[なでしこ3](https://nadesi.com/doc3/go.php?272)をインストールし、ターミナルで以下を実行します。
 
 ```
 npm install nadesiko3-smtp
