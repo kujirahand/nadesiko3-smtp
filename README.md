@@ -21,7 +21,7 @@ Gmailを使う場合には、Googleアカウントの設定が必要です。
 以下のようなプログラムを作成します。
 
 ```
-!「nadesiko3-smtp.js」を取り込む。
+!「nadesiko3-smtp」を取り込む。
 
 {
   "user": "xxx@gmail.com", # Gmailアカウントを指定
@@ -38,7 +38,7 @@ JSONエンコードして表示。# 結果を表示
 複数の添付ファイルを添付できます。
 
 ```
-!「nadesiko3-smtp.js」を取り込む。
+!「nadesiko3-smtp」を取り込む。
 
 {
   "user": "xxx@gmail.com", # Gmailアカウントを指定
