@@ -2,6 +2,14 @@
 
 なでしこ3のための電子メール送信プラグイン
 
+## プラグインをインストール
+
+ターミナルで以下を実行します。
+
+```
+npm install nadesiko3-smtp
+```
+
 ## GMailを使ってメール送信する方法
 
 Gmailを使う場合には、Googleアカウントの設定が必要です。
@@ -13,7 +21,7 @@ Gmailを使う場合には、Googleアカウントの設定が必要です。
 以下のようなプログラムを作成します。
 
 ```
-!「./nadesiko3-smtp.js」を取り込む。
+!「nadesiko3-smtp.js」を取り込む。
 
 {
   "user": "xxx@gmail.com", # Gmailアカウントを指定
@@ -30,7 +38,7 @@ JSONエンコードして表示。# 結果を表示
 複数の添付ファイルを添付できます。
 
 ```
-!「./nadesiko3-smtp.js」を取り込む。
+!「nadesiko3-smtp.js」を取り込む。
 
 {
   "user": "xxx@gmail.com", # Gmailアカウントを指定
