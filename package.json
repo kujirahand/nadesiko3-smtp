@@ -1,0 +1,23 @@
+{
+  "name": "nadesiko3-smtp",
+  "version": "3.6.16",
+  "description": "なでしこ3のための電子メール送信プラグイン",
+  "main": "nadesiko3-smtp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kujirahand/nadesiko3-smtp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kujirahand/nadesiko3-smtp/issues"
+  },
+  "homepage": "https://github.com/kujirahand/nadesiko3-smtp#readme",
+  "dependencies": {
+    "nodemailer": "^6.9.14"
+  }
+}

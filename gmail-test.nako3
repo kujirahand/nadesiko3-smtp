@@ -1,0 +1,17 @@
+!「nadesiko3-smtp」を取り込む
+
+# 環境変数から情報を取得
+「GMAIL_ID」の環境変数取得してGMAIL_IDに代入
+「GMAIL_APP_PASSWORD」の環境変数取得してPASSに代入。
+# GMAIL送信
+情報={
+    "user": GMAIL_ID,
+    "pass": PASS,
+    "宛先": GMAIL_ID,
+    "件名": "メール送信テスト{今日}",
+    "本文": "メールの送信テストです。届いているでしょうか？",
+    "html": "<h1>メールの送信テスト</h1><p>HTMLメールの送信テストです。届いているでしょうか？</p>",
+}
+情報でGMAIL送信
+「OK」と表示。
+

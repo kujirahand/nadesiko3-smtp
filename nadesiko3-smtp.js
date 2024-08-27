@@ -7,6 +7,16 @@ const path = require("path")
 const fs = require('fs')
 
 const PluginSMTP = {
+    'meta': {
+        type: 'const',
+        value: { // プラグインに関する情報を指定する
+            pluginName: 'nadesiko3-smtp', // プラグインの名前
+            description: 'メール送信プラグイン', // プラグインの説明
+            pluginVersion: '3.6.16', // プラグインのバージョン
+            nakoRuntime: ['cnako'], // 対象ランタイム
+            nakoVersion: '3.6.16' // 要求なでしこバージョン
+        }
+    },
     '初期化': {
         type: 'func',
         josi: [],
@@ -15,7 +25,7 @@ const PluginSMTP = {
     },
 
     // @SMTP
-    'メール送信': { // @辞書型のデータ{host:'xxx',port:xxx,secure:true,auth:{user:'',pass:''},from:'xxx',to:'xxx',subject:'xxx',text:'xxx',html:'xxx'}を指定してメールを送信して情報を返す // @めーるそうしん
+    'メール送信': { // @辞書型のデータ{host:'xxx',port:xxx,secure:true,auth:{user:'xxx',pass:'xxx'},from:'xxx',to:'xxx',subject:'xxx',text:'xxx',html:'xxx'}を指定してメールを送信して情報を返す // @めーるそうしん
         type: 'func',
         josi: [['の', 'で']],
         asyncFn: true,
