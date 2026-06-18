@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/kujirahand/nadesiko3-smtp#readme",
   "dependencies": {
-    "nodemailer": "^6.9.14"
+    "nodemailer": "^9.0.1"
   }
 }
