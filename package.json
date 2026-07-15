@@ -1,6 +1,6 @@
 {
   "name": "nadesiko3-smtp",
-  "version": "3.6.16",
+  "version": "3.6.17",
   "description": "なでしこ3のための電子メール送信プラグイン",
   "main": "nadesiko3-smtp.js",
   "scripts": {
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/kujirahand/nadesiko3-smtp#readme",
   "dependencies": {
-    "nodemailer": "^6.9.14"
+    "nodemailer": "^9.0.1"
   }
 }
